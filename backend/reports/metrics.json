@@ -1,0 +1,152 @@
+{
+  "model_name": "Logistic Regression",
+  "algorithm": "sklearn.linear_model.LogisticRegression",
+  "best_params": {
+    "C": 0.1,
+    "class_weight": null,
+    "max_iter": 1000,
+    "penalty": "l2",
+    "solver": "liblinear"
+  },
+  "best_cv_f1": 0.8504682176479594,
+  "cv_folds": 5,
+  "accuracy": 0.7704918032786885,
+  "precision": 0.7435897435897436,
+  "recall": 0.8787878787878788,
+  "f1_score": 0.8055555555555556,
+  "classification_report": {
+    "0": {
+      "precision": 0.8181818181818182,
+      "recall": 0.6428571428571429,
+      "f1-score": 0.72,
+      "support": 28.0
+    },
+    "1": {
+      "precision": 0.7435897435897436,
+      "recall": 0.8787878787878788,
+      "f1-score": 0.8055555555555556,
+      "support": 33.0
+    },
+    "accuracy": 0.7704918032786885,
+    "macro avg": {
+      "precision": 0.780885780885781,
+      "recall": 0.7608225108225108,
+      "f1-score": 0.7627777777777778,
+      "support": 61.0
+    },
+    "weighted avg": {
+      "precision": 0.7778287286484009,
+      "recall": 0.7704918032786885,
+      "f1-score": 0.7662841530054646,
+      "support": 61.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      18,
+      10
+    ],
+    [
+      4,
+      29
+    ]
+  ],
+  "n_train": 241,
+  "n_test": 61,
+  "features": [
+    "age",
+    "sex",
+    "cp",
+    "trestbps",
+    "chol",
+    "fbs",
+    "restecg",
+    "thalach",
+    "exang",
+    "oldpeak",
+    "slope",
+    "ca",
+    "thal"
+  ],
+  "auc": 0.8744588744588745,
+  "feature_importance": [
+    {
+      "feature": "cp",
+      "label": "Chest Pain Type",
+      "coefficient": 0.6800365297402409,
+      "importance": 0.6800365297402409
+    },
+    {
+      "feature": "oldpeak",
+      "label": "ST Depression (Oldpeak)",
+      "coefficient": -0.4792473785658332,
+      "importance": 0.4792473785658332
+    },
+    {
+      "feature": "sex",
+      "label": "Sex",
+      "coefficient": -0.46636939363676894,
+      "importance": 0.46636939363676894
+    },
+    {
+      "feature": "thal",
+      "label": "Thalassemia",
+      "coefficient": -0.4476879641474103,
+      "importance": 0.4476879641474103
+    },
+    {
+      "feature": "ca",
+      "label": "Major Vessels (CA)",
+      "coefficient": -0.42958470543283744,
+      "importance": 0.42958470543283744
+    },
+    {
+      "feature": "exang",
+      "label": "Exercise Angina",
+      "coefficient": -0.4013468318503364,
+      "importance": 0.4013468318503364
+    },
+    {
+      "feature": "thalach",
+      "label": "Max Heart Rate",
+      "coefficient": 0.39150102726778335,
+      "importance": 0.39150102726778335
+    },
+    {
+      "feature": "chol",
+      "label": "Cholesterol",
+      "coefficient": -0.26311061277112563,
+      "importance": 0.26311061277112563
+    },
+    {
+      "feature": "slope",
+      "label": "ST Slope",
+      "coefficient": 0.23635556563020998,
+      "importance": 0.23635556563020998
+    },
+    {
+      "feature": "restecg",
+      "label": "Resting ECG",
+      "coefficient": 0.18315376080061596,
+      "importance": 0.18315376080061596
+    },
+    {
+      "feature": "trestbps",
+      "label": "Resting Blood Pressure",
+      "coefficient": -0.17326299758019864,
+      "importance": 0.17326299758019864
+    },
+    {
+      "feature": "age",
+      "label": "Age",
+      "coefficient": -0.03893516995476495,
+      "importance": 0.03893516995476495
+    },
+    {
+      "feature": "fbs",
+      "label": "Fasting Blood Sugar",
+      "coefficient": -0.018592250711100308,
+      "importance": 0.018592250711100308
+    }
+  ]
+}

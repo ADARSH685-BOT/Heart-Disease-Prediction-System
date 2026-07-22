@@ -1,0 +1,80 @@
+[
+  {
+    "feature": "cp",
+    "label": "Chest Pain Type",
+    "coefficient": 0.6800365297402409,
+    "importance": 0.6800365297402409
+  },
+  {
+    "feature": "oldpeak",
+    "label": "ST Depression (Oldpeak)",
+    "coefficient": -0.4792473785658332,
+    "importance": 0.4792473785658332
+  },
+  {
+    "feature": "sex",
+    "label": "Sex",
+    "coefficient": -0.46636939363676894,
+    "importance": 0.46636939363676894
+  },
+  {
+    "feature": "thal",
+    "label": "Thalassemia",
+    "coefficient": -0.4476879641474103,
+    "importance": 0.4476879641474103
+  },
+  {
+    "feature": "ca",
+    "label": "Major Vessels (CA)",
+    "coefficient": -0.42958470543283744,
+    "importance": 0.42958470543283744
+  },
+  {
+    "feature": "exang",
+    "label": "Exercise Angina",
+    "coefficient": -0.4013468318503364,
+    "importance": 0.4013468318503364
+  },
+  {
+    "feature": "thalach",
+    "label": "Max Heart Rate",
+    "coefficient": 0.39150102726778335,
+    "importance": 0.39150102726778335
+  },
+  {
+    "feature": "chol",
+    "label": "Cholesterol",
+    "coefficient": -0.26311061277112563,
+    "importance": 0.26311061277112563
+  },
+  {
+    "feature": "slope",
+    "label": "ST Slope",
+    "coefficient": 0.23635556563020998,
+    "importance": 0.23635556563020998
+  },
+  {
+    "feature": "restecg",
+    "label": "Resting ECG",
+    "coefficient": 0.18315376080061596,
+    "importance": 0.18315376080061596
+  },
+  {
+    "feature": "trestbps",
+    "label": "Resting Blood Pressure",
+    "coefficient": -0.17326299758019864,
+    "importance": 0.17326299758019864
+  },
+  {
+    "feature": "age",
+    "label": "Age",
+    "coefficient": -0.03893516995476495,
+    "importance": 0.03893516995476495
+  },
+  {
+    "feature": "fbs",
+    "label": "Fasting Blood Sugar",
+    "coefficient": -0.018592250711100308,
+    "importance": 0.018592250711100308
+  }
+]
